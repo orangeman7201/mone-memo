@@ -7,7 +7,7 @@ describe "Home", type: :request do
     context 'ログインしていないとき' do
       it 'アクセスできないこと' do
         get root_path
-        expect(response).to have_http_status(400)
+        expect(response).to redirect_to(new_user_session_path)
       end
     end
 
