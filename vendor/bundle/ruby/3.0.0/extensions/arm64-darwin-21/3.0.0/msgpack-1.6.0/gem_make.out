@@ -1,5 +1,5 @@
 current directory: /Users/yuma.akita/private/mone-memo/vendor/bundle/ruby/3.0.0/gems/msgpack-1.6.0/ext/msgpack
-/Users/yuma.akita/.rbenv/versions/3.0.0/bin/ruby -I /Users/yuma.akita/.rbenv/versions/3.0.0/lib/ruby/3.0.0 -r ./siteconf20230107-63689-2ka4da.rb extconf.rb
+/Users/yuma.akita/.rbenv/versions/3.0.0/bin/ruby -I /Users/yuma.akita/.rbenv/versions/3.0.0/lib/ruby/3.0.0 -r ./siteconf20230107-77636-pnl0aa.rb extconf.rb
 checking for ruby/st.h... yes
 checking for st.h... no
 checking for rb_enc_interned_str() in ruby.h... yes
@@ -27,4 +27,4 @@ linking shared-object msgpack/msgpack.bundle
 
 current directory: /Users/yuma.akita/private/mone-memo/vendor/bundle/ruby/3.0.0/gems/msgpack-1.6.0/ext/msgpack
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 msgpack.bundle ./.gem.20230107-63689-wwuxud/msgpack
+/usr/bin/install -c -m 0755 msgpack.bundle ./.gem.20230107-77636-i3xicj/msgpack

@@ -1,5 +1,5 @@
 current directory: /Users/yuma.akita/private/mone-memo/vendor/bundle/ruby/3.0.0/gems/racc-1.6.2/ext/racc/cparse
-/Users/yuma.akita/.rbenv/versions/3.0.0/bin/ruby -I /Users/yuma.akita/.rbenv/versions/3.0.0/lib/ruby/3.0.0 -r ./siteconf20230107-62886-ohgbjr.rb extconf.rb
+/Users/yuma.akita/.rbenv/versions/3.0.0/bin/ruby -I /Users/yuma.akita/.rbenv/versions/3.0.0/lib/ruby/3.0.0 -r ./siteconf20230107-76495-nrtcie.rb extconf.rb
 checking for rb_block_call()... yes
 checking for rb_ary_subseq()... yes
 creating Makefile
@@ -14,4 +14,4 @@ linking shared-object racc/cparse.bundle
 
 current directory: /Users/yuma.akita/private/mone-memo/vendor/bundle/ruby/3.0.0/gems/racc-1.6.2/ext/racc/cparse
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20230107-62886-k3vlno/racc
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20230107-76495-cq2jg4/racc

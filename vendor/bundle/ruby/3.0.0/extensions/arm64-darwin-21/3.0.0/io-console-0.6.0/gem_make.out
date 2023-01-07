@@ -1,5 +1,5 @@
 current directory: /Users/yuma.akita/private/mone-memo/vendor/bundle/ruby/3.0.0/gems/io-console-0.6.0/ext/io/console
-/Users/yuma.akita/.rbenv/versions/3.0.0/bin/ruby -I /Users/yuma.akita/.rbenv/versions/3.0.0/lib/ruby/3.0.0 -r ./siteconf20230107-63689-gh5n9x.rb extconf.rb
+/Users/yuma.akita/.rbenv/versions/3.0.0/bin/ruby -I /Users/yuma.akita/.rbenv/versions/3.0.0/lib/ruby/3.0.0 -r ./siteconf20230107-77636-fvyzg6.rb extconf.rb
 checking for termios.h... yes
 checking for cfmakeraw() in termios.h... yes
 checking for sys/ioctl.h... yes
@@ -17,4 +17,4 @@ linking shared-object io/console.bundle
 
 current directory: /Users/yuma.akita/private/mone-memo/vendor/bundle/ruby/3.0.0/gems/io-console-0.6.0/ext/io/console
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 console.bundle ./.gem.20230107-63689-e4nvoy/io
+/usr/bin/install -c -m 0755 console.bundle ./.gem.20230107-77636-vbqvf8/io

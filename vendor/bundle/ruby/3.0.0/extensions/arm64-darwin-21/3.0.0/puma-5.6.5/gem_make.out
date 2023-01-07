@@ -1,5 +1,5 @@
 current directory: /Users/yuma.akita/private/mone-memo/vendor/bundle/ruby/3.0.0/gems/puma-5.6.5/ext/puma_http11
-/Users/yuma.akita/.rbenv/versions/3.0.0/bin/ruby -I /Users/yuma.akita/.rbenv/versions/3.0.0/lib/ruby/3.0.0 -r ./siteconf20230107-63689-7eut5y.rb extconf.rb
+/Users/yuma.akita/.rbenv/versions/3.0.0/bin/ruby -I /Users/yuma.akita/.rbenv/versions/3.0.0/lib/ruby/3.0.0 -r ./siteconf20230107-77636-2myha4.rb extconf.rb
 checking for BIO_read() in -lcrypto... yes
 checking for SSL_CTX_new() in -lssl... yes
 checking for openssl/bio.h... yes
@@ -25,4 +25,4 @@ linking shared-object puma/puma_http11.bundle
 
 current directory: /Users/yuma.akita/private/mone-memo/vendor/bundle/ruby/3.0.0/gems/puma-5.6.5/ext/puma_http11
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 puma_http11.bundle ./.gem.20230107-63689-19nnkv/puma
+/usr/bin/install -c -m 0755 puma_http11.bundle ./.gem.20230107-77636-kp74nf/puma
