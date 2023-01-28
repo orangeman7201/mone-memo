@@ -1,20 +1,32 @@
 <template>
-  <p>{{ state.message }}</p>
+  <ul v-for="todo in todos">
+    <li>{{ todo }}</li>
+  </ul>
+
+  <input type="text" v-model="input">
+  <button @click="submit">
+    追加
+  </button>
 </template>
 
 <script lang="ts">
-import { defineComponent, ref } from 'vue'
+import { defineComponent, ref, Ref } from 'vue'
 
 export default defineComponent({
   name: 'App',
   setup() {
-    const message = ref({
-      todo: []
-    })
+    const todos: Ref<string[]> = ref([])
+
+    const input = ref('')
+
+    const submit = () => {
+      todos.value.push(input.value)
+      input.value  = ''
+    }
     return {
-      state: {
-        message: "Hello Vue3 + TypeScript!"
-      }
+      todos,
+      input,
+      submit
     }
   }
 })
