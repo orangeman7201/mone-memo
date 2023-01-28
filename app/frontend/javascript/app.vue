@@ -7,13 +7,18 @@
   <button @click="submit">
     追加
   </button>
+  <Test />
 </template>
 
 <script lang="ts">
 import { defineComponent, ref, Ref } from 'vue'
+import Test from './components/Button.vue'
 
 export default defineComponent({
   name: 'App',
+  components: {
+    Test
+  },
   setup() {
     const todos: Ref<string[]> = ref([])
 
